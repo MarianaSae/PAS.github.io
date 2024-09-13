@@ -1,0 +1,501 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    border: red solid;
+    margin: 0 auto;
+}
+
+/*#7d9654 y bacd9d*/
+/*#1e94be y #66c6ea*/
+
+
+#main {
+    width: 100%;
+    height: auto;
+    
+}
+
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: #7d9654;
+    position: fixed;
+    top: 0;
+
+    padding-right: 20px;
+    text-align: right;
+
+    z-index: 1000;
+
+
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+.hamburger {
+    display: block;
+    width: 35px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 2;
+    margin-right: 80px;
+
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(241, 241, 241);
+    margin: 4px 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #7d9654;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.menu li {
+    margin: 20px 0;
+    font-size: 23px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu.show {
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+
+
+.logo {
+    width: 250px;
+    float: left;
+    padding-left: 20px;
+}
+
+.home {
+    padding: 10px 5px;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    float: right;
+}
+
+
+
+h1 {
+    color: black;
+    padding-top: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    /*font-family: "Bree Serif", serif;*/
+    font-family: "DM Serif Text", serif;
+    line-height: 66px;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+    line-height: 56px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 36px;
+    padding-left: 10px;
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.cajita {
+    text-align: center;
+    background-color: #bacd9d;
+    width: 50%;
+    border-radius: 20px;
+}
+
+
+
+.tema {
+    width: 90%;
+    height: auto;
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+
+    padding-bottom: 30px;
+
+}
+
+.texto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+
+.boton1 {
+    margin-left: 50px;
+}
+
+.boton2 {
+    margin-right: 30px;
+}
+
+.imagenes {
+    width: 60%;
+    height: 600px;
+    margin-top: 40px;
+
+    margin-bottom: 50px;
+}
+
+.imagen1 {
+    width: auto;
+    height: 600px;
+
+    float: left;
+
+
+}
+
+.imagen2 {
+    width: auto;
+    height: 600px;
+
+    float: right;
+
+
+}
+
+p {
+    line-height: 35px;
+    text-align: justify;
+}
+
+
+#contenido {
+    display: none;
+}
+
+#toggleBoton {
+    background-color: #7d9654;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+
+.toggle-btn.active {
+    background-color: #f44336;
+}
+
+
+.mapa {
+    text-align: center;
+
+}
+
+
+.foot {
+
+    width: 404px;
+    height: 300px;
+    float: right;
+    margin-right: 62px;
+    margin-top: 30px;
+
+}
+
+.elements {
+    float: left;
+    margin-left: 55px;
+    margin-top: -30px;
+
+}
+
+.elements2 {
+
+    margin-left: 55px;
+    margin-top: -30px;
+}
+
+.elements4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -38px;
+}
+
+.elements3 {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.footercopy {
+    text-align: center;
+}
+
+footer {
+    background-color: #7d9654;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    /*background-color: #f44336;*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.libro {
+    width: 45%;
+    position: relative;
+}
+
+.libro img {
+    height: 100%;
+    box-shadow: #222222 5px 5px 20px;
+}
+
+.toggleBtn1 {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #7d9654;
+    width: auto;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.toggleBtn2 {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background-color: #7d9654;
+    width: auto;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.logofoot {
+    height: 100px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .imagenes {
+        height: 400px;
+    }
+
+    .logofoot {
+        height: 80px;
+    }
+
+    .elements4 {
+        height: 100px;
+    }
+
+    footer {
+        height: 500px;
+    }
+
+    .libro {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:972px) {
+
+
+    .logofoot {
+        height: 100px;
+    }
+
+    .elements4 {
+        height: 10px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    .libro {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:956px) {
+
+
+    .logofoot {
+        height: 100px;
+    }
+
+    .elements4 {
+        height: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        height: 500px;
+    }
+
+    .foot {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .libro img {
+        height: 85%;
+    }
+
+    .toggleBtn1 {
+        margin: 20px;
+    }
+
+    .toggleBtn2 {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+
+    .cajita {
+
+
+        width: 100%;
+
+    }
+
+    .contenedor {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .libro img {
+        height: 85%;
+    }
+
+    .toggleBtn1 {
+        margin: 20px;
+    }
+
+    .toggleBtn2 {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+
+    .contenedor {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .libro img {
+        height: 55%;
+    }
+
+    .toggleBtn1 {
+        margin: 20px;
+    }
+
+    .toggleBtn2 {
+        margin: 20px;
+    }
+
+    footer {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+
+}
